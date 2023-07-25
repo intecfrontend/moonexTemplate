@@ -16,7 +16,7 @@ const portfolioContent = [
   },
   {
     demoImg: "portfolio-listing",
-    routerPath: "/works-listing",
+    routerPath: "/Portfolio",
     title: " Portfolio Listing",
     delayAnimationTime: "200",
   },

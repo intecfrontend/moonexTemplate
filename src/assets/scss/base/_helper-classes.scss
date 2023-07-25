@@ -5,6 +5,11 @@
   color: var(--ptf-color-white);
 }
 
+.is-right {
+display: flex;
+justify-content: flex-end;
+}
+
 .has-black-color {
   color: var(--ptf-color-black);
 }

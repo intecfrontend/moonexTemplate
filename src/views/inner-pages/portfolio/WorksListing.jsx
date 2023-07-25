@@ -7,9 +7,9 @@ import PortfolioListing from "../../../components/portfolio/PortfolioListing";
 
 const WorksListing = () => {
   return (
-    <div className="ptf-site-wrapper animsition ptf-is--works-listing">
+    <div className="ptf-site-wrapper animsition ptf-is--Portfolio">
       <Helmet>
-        <title>Moonex - Works/Portfolio Listing</title>
+        <title>Benedikt lantsoght - Works/Portfolio Listing</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">

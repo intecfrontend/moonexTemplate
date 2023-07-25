@@ -61,7 +61,7 @@ const menuContent = [
       },
       {
         name: "Works Listing",
-        routerPath: "/works-listing",
+        routerPath: "/Portfolio",
       },
       {
         name: "Works Carousel",
@@ -169,19 +169,13 @@ const MobileMenu = () => {
 
       <div className="ptf-offcanvas-menu__footer">
         <p className="ptf-offcanvas-menu__copyright">
-          @{new Date().getFullYear()} <span>Moonex</span>. All Rights Reserved.{" "}
+          @{new Date().getFullYear()} <span>Lantsoght</span>. All Rights Reserved.{" "}
           <br />
           Development by{" "}
           <span>
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ib-themes
-            </a>
+            0032 (0) 499 388 227
+            Benedikt Lantsoght
           </span>
-          .
         </p>
         <Social />
       </div>

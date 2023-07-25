@@ -24,7 +24,7 @@ const HeroModern = () => {
             className="large-heading text-uppercase fw-semibold"
             style={{ letterSpacing: "-0.05em" }}
           >
-            Moonex <br />
+            Lantsoght <br />
             labs creative <br />
             studio
           </h1>

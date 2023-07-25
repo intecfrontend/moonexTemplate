@@ -70,9 +70,9 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className="fz-24">90 Fairground Rd, FL 3290, United States</p>
-          <a className="fz-40 has-black-color" href="mailto:hello@moonex.co">
-            hello@moonex.co
+          <p className="fz-24">Soldatenstr. 63, BE1082 Sint Agatha Berchem, Brussel </p>
+          <a className="fz-40 has-black-color" href="mailto:B.Lantsoght@gmail.com">
+            B.Lantsoght@gmail.com
           </a>
         </div>
       </div>

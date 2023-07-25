@@ -36,8 +36,8 @@ const FooterThreeDark = () => {
           data-aos-delay="200"
         >
           <div className="ptf-widget ptf-widget-text">
-            <a className="fz-36 has-white-color" href="mailto:hello@moonex.co">
-              hello@moonex.co
+            <a className="fz-36 has-white-color" href="mailto:B.Lantsoght@gmail.com">
+              B.Lantsoght@gmail.com
             </a>
             {/* <!--Spacer--> */}
             <div
@@ -45,7 +45,7 @@ const FooterThreeDark = () => {
               style={{ "--ptf-xxl": "0.625rem" }}
             ></div>
             <p className="fz-18 has-3-color">
-              90 Fairground Rd, FL 3290, United States
+              Soldatenstr. 63, BE1082 Sint Agatha Berchem, Brussel
             </p>
           </div>
         </div>

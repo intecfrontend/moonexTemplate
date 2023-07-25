@@ -14,7 +14,7 @@ const AboutUs = () => {
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--about-us">
       <Helmet>
-        <title>Moonex - About Us</title>
+        <title>Benedikt lantsoght - About Us</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
@@ -42,7 +42,7 @@ const AboutUs = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading">Moonex Labs</h1>
+                      <h1 className="large-heading">Lantsoght Labs</h1>
                     </div>
                     {/* <!--Spacer--> */}
                     <div
@@ -225,7 +225,7 @@ const AboutUs = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading">Moonex’s Partners</h2>
+                      <h2 className="h1 large-heading">Lantsoght’s Partners</h2>
                     </div>
                     {/* <!--Spacer--> */}
                     <div
@@ -269,10 +269,9 @@ const AboutUs = () => {
             <section
               className="jarallax jarallax-img"
               style={{
-                backgroundImage: `url(${
-                  process.env.PUBLIC_URL +
+                backgroundImage: `url(${process.env.PUBLIC_URL +
                   "assets/img/about-us-testimonial-background.png"
-                })`,
+                  })`,
               }}
             >
               {/* <!--Spacer--> */}

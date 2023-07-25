@@ -15,17 +15,10 @@ const CopyRightTwo = () => {
 
       <div className="col-12 col-md-5">
         <p className="ptf-footer-copyright has-3-color">
-          ©{new Date().getFullYear()}{" "}
+          {/* ©{new Date().getFullYear()}{" "} */}
           <span className="has-white-color">
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              ib-themes
-            </a>
+            tel: 0032 (0)499 388 227<br />Benedikt Lantsoght            <br />B.Lantsoght@gmail.com
           </span>
-          . All Rights Reserved.
         </p>
       </div>
       {/* End .col */}
@@ -37,7 +30,7 @@ const CopyRightTwo = () => {
         </div>
       </div>
       {/* End .col */}
-    </div>
+    </div >
   );
 };
 

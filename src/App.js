@@ -1,49 +1,249 @@
-import React, { useEffect } from "react";
-import AllRoutes from "./router/AllRoutes";
-import ScrollToTop from "./components/ScrollToTop";
-import AOS from "aos";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "photoswipe/dist/photoswipe.css";
-import "aos/dist/aos.css";
+import React from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import AnimatedCursor from "react-animated-cursor";
+import HeaderStudio from "./components/header/HeaderStudio";
+import ServiceList from "./components/list/ServiceList";
+import myFoto from "./assets/img/myfoto2.png";
+import PortfolioThree from "./components/portfolio/PortfolioThree";
+import Award from "./components/award/Award";
+import Blog from "./components/blog/Blog";
+import FooterThree from "./components/footer/FooterThree";
+import CopyRightThree from "./components/footer/copyright/CopyRightThree";
+import ContactJarallax from "./components/jarallax/ContactJarallax";
+import './styles.css'; // Import the stylesheet
+import "aos/dist/aos.css"; // Import the AOS CSS styles
+import AOS from "aos"; // Import the AOS library
 
-const App = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1200,
-    });
-  }, []);
+const HomeStudio = () => {
   return (
-    <>
+    <div className="ptf-site-wrapper animsition ptf-is--home-studio">
       <Helmet>
-        <title>Moonex - Portfolio & Agency React Template</title>
-        <meta name="description" content="Portfolio & Agency React Template" />
-        <meta
-          name="keywords"
-          content="agency, bootstrap 5, business, clean, corporate, creative, fullpage, minimal, modern, multipurpose, parallax, personal, photography, portfolio, showcase"
-        />
+        <title>Benedikt Lantsoght - Portfofio</title>
       </Helmet>
-      {/* End React Helmet for SEO */}
+      {/* End Page SEO Content */}
 
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="220, 53, 69"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.2}
-      />
-      {/* End Animated Cursor */}
+      <HeaderStudio />
+      {/* End Header Agency */}
 
-      <ScrollToTop />
-      {/* End Scroll To Top */}
+      <div className="ptf-site-wrapper__inner">
+        <div className="ptf-main">
+          <div className="ptf-page ptf-page--home-studio">
+            {/*=============================================
+            Start Service Section 
+            ============================================== */}
+            <section className="fullHeight">
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "3.125rem", "--ptf-md": "1.5625rem" }}
+              ></div>
+              <div className="container-xxl">
+                {/* <!--Animated Block--> */}
 
-      <AllRoutes />
-      {/* End All Routes */}
-    </>
+
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="100"
+                >                    <img className="myfoto" src={myFoto} alt="myfoto" />
+
+                  <h1 className="whitetext fz-120 fz-90--lg fz-60--md lh-1p1">
+                    Digitally Yours <br />
+
+                  </h1>
+                </div>
+              </div>
+            </section>
+
+            {/*=============================================
+            Start Service Section 
+            ============================================== */}
+            <section>
+              <div className="container-xxl">
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "8.125rem", "--ptf-md": "4.0625rem" }}
+                ></div>
+
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="1000"
+                >
+                  <h2 className="h5 d-inline-flex">Latest Work</h2>
+                  <Link
+                    className="ptf-link-with-arrow fz-14 d-none d-lg-inline-flex"
+                    to="/works-grid"
+                    style={{ marginLeft: "3.125rem" }}
+                  >
+                    All Projects <i className="lnil lnil-chevron-right"></i>
+                  </Link>
+                </div>
+                {/* End .ptf-animated-block */}
+
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
+                ></div>
+
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <div data-aos="zoom-in-up"
+                    className="ptf-isotope-grid row"
+                    style={{
+                      "--bs-gutter-x": "4.75rem",
+                      "--bs-gutter-y": "4.75rem",
+                    }}
+                  >
+                    <PortfolioThree />
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/*=============================================
+            Start Award Section 
+            ============================================== */}
+            <section className="ptf-custom--1562">
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <h2 className="h5">Lantsoght’s Awards</h2>
+                </div>
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
+                ></div>
+              </div>
+              <div className="container-xxl">
+                <Award />
+              </div>
+            </section>
+
+            {/*=============================================
+            Start Blog Section 
+            ============================================== */}
+            <section>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <h2 className="h5 d-inline-flex">Prepared to learn and improve: Kaizen.</h2>
+                  <Link
+                    className="ptf-link-with-arrow fz-14 d-none d-lg-inline-flex"
+                    to="/blog-grid"
+                    style={{ marginLeft: "3.125rem" }}
+                  >
+                    All Articles <i className="lnil lnil-chevron-right"></i>
+                  </Link>
+                </div>
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
+                ></div>
+              </div>
+              <div className="container-xxl">
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <div
+                    className="row ptf-isotope-grid"
+                    style={{
+                      "--bs-gutter-x": "4.75rem",
+                      "--bs-gutter-y": "4.75rem",
+                    }}
+                  >
+                    <Blog />
+                  </div>
+                </div>
+              </div>
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+            </section>
+
+            {/*=============================================
+            Start Contact Section 
+            ============================================== */}
+            <section
+              className="jarallax jarallax-img"
+              style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL +
+                  "assets/img/class.jpeg"
+                  })`,
+              }}
+            >
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": " 12.5rem", "--ptf-md": "6.25rem" }}
+              ></div>
+              <ContactJarallax />
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+            </section>
+          </div>
+          {/* End .ptf-page */}
+        </div>
+        {/* End .ptf-main */}
+      </div>
+      {/* End .ptf-site-wrapper__inner */}
+
+      {/*=============================================
+        Start Footer Section 
+        ============================================== */}
+      <footer className="ptf-footer ptf-footer--style-2">
+        <div className="container-xxl">
+          <div className="ptf-footer__top">
+            <FooterThree />
+          </div>
+          {/* End .ptf-footer__top */}
+
+          <div className="ptf-footer__bottom">
+            <CopyRightThree />
+          </div>
+          {/* End .ptf-footer__bottom */}
+        </div>
+      </footer>
+    </div>
   );
 };
 
-export default App;
+AOS.init(); // Initialize AOS
+
+
+export default HomeStudio;

@@ -1,0 +1,29 @@
+/* styles.css */
+.prefix {
+font-size: 25px;
+opacity: 0.6}
+
+.fullHeight{height: 90vh; background: var(--ptf-accent-1)}
+.whitetext { color: white;  float: right}
+.circle {
+  width: 58px;
+  height: 58px;
+  background-color: darkgray;
+  border-radius: 50%;
+  display: flex;
+padding: 15px;  
+  justify-content: center;
+  align-items: center;opacity: 0.8;
+}
+.phonecontainer{display: flex; 
+  width: 100%;
+  color: white
+}
+FaPhone{display: flex; 
+  color: white
+}
+.myfoto{width: 40vw;
+border: 2px solid yellow}
+.ptf-animated-block {
+  display: flex; justify-content: flex-start; align-items: flex-end;
+  position: relative}

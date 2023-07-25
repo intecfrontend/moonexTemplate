@@ -17,7 +17,7 @@ const HomeAgency = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-agency">
       <Helmet>
-        <title>Moonex - Home Agency</title>
+        <title>Benedikt lantsoght - Home Agency</title>
       </Helmet>
       {/* End Page SEO Content */}
 

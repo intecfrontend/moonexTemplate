@@ -15,7 +15,7 @@ const HomeModern = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-modern ">
       <Helmet>
-        <title>Moonex - Home Modern</title>
+        <title>Benedikt lantsoght - Home Modern</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -300,7 +300,7 @@ const HomeModern = () => {
                       data-aos-delay="0"
                     >
                       <h2 className="text-uppercase fw-semibold">
-                        Moonex’s <br />
+                        Lantsoght’s <br />
                         Team
                       </h2>
                     </div>
@@ -378,7 +378,7 @@ const HomeModern = () => {
                     >
                       <h2 className="text-uppercase fw-semibold">
                         The Wolrd of <br />
-                        Moonex
+                        Lantsoght
                       </h2>
                     </div>
                   </div>

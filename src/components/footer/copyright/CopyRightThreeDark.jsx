@@ -6,18 +6,11 @@ const CopyRightThreeDark = () => {
     <div className="row align-items-center">
       <div className="col-12 col-md">
         <p className="ptf-footer-copyright has-white-color">
-          ©{new Date().getFullYear()}{" "}
+          {/* ©{new Date().getFullYear()}{" "} */}
           <span>
             {" "}
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              ib-themes
-            </a>
+            tel: 0032 (0)499 388 227<br />Benedikt Lantsoght            <br />B.Lantsoght@gmail.com
           </span>
-          . All Rights Reserved.
         </p>
       </div>
       {/* End .col */}
@@ -32,7 +25,7 @@ const CopyRightThreeDark = () => {
         </div>
       </div>
       {/* End .col */}
-    </div>
+    </div >
   );
 };
 

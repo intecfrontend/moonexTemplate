@@ -11,7 +11,7 @@ const Service = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Services</title>
+        <title>Benedikt lantsoght - Services</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -80,9 +80,8 @@ const Service = () => {
           <section
             className="has-accent-1-background"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "assets/img/root/service-bubble.png"
-              })`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + "assets/img/root/service-bubble.png"
+                })`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "100% calc(100% + 120px)",
             }}
@@ -121,10 +120,9 @@ const Service = () => {
           <section
             className="jarallax jarallax-img"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL +
+              backgroundImage: `url(${process.env.PUBLIC_URL +
                 "assets/img/services-call-to-action-background.png"
-              })`,
+                })`,
             }}
           >
             {/* <!--Spacer--> */}

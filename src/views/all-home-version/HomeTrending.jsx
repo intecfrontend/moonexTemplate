@@ -12,7 +12,7 @@ const HomeTrending = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-trending ">
       <Helmet>
-        <title>Moonex - Home Trending</title>
+        <title>Benedikt lantsoght - Home Trending</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -363,7 +363,7 @@ const HomeTrending = () => {
                       "
                     >
                       <Link className="ptf-filled-link" to="/contact">
-                        Call Moonex
+                        Call Lantsoght
                       </Link>
                     </div>
                     <div className="fz-80 has-black-color">

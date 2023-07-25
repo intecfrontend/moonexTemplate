@@ -13,7 +13,7 @@ const FooterFour = () => {
             "
         >
           <p className="ptf-footer-copyright has-black-color">
-            &copy; {new Date().getFullYear()} <span>Moonex</span>. All Rights
+            &copy; {new Date().getFullYear()} <span>Lantsoght</span>. All Rights
             Reserved.
           </p>
         </div>

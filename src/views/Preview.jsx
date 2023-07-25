@@ -10,7 +10,7 @@ const Preview = () => {
   return (
     <div className="ptf-site-wrapper animsition">
       <Helmet>
-        <title>Moonex - Preview</title>
+        <title>Benedikt lantsoght - Preview</title>
       </Helmet>
       <div className="ptf-site-wrapper__inner">
         {/* <!--Header--> */}
@@ -19,9 +19,8 @@ const Preview = () => {
           <article
             className="ptf-page ptf-page--intro"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "assets/img/root/intro/bubble-1.png"
-              })`,
+              backgroundImage: `url(${process.env.PUBLIC_URL + "assets/img/root/intro/bubble-1.png"
+                })`,
             }}
           >
             <section>
@@ -275,9 +274,8 @@ const Preview = () => {
       <footer
         className="ptf-footer ptf-footer--landing"
         style={{
-          backgroundImage: `url(${
-            process.env.PUBLIC_URL + "assets/img/root/intro/bubble-3.png"
-          })`,
+          backgroundImage: `url(${process.env.PUBLIC_URL + "assets/img/root/intro/bubble-3.png"
+            })`,
         }}
       >
         {/* <!--Spacer--> */}
@@ -305,7 +303,7 @@ const Preview = () => {
               {/* <!--Button--> */}
               <a
                 className="ptf-btn ptf-btn--success"
-                href="https://themeforest.net/item/moonex-portfolio-agency-react-template/35431456"
+                href="https://themeforest.net/item/Lantsoght-portfolio-agency-react-template/35431456"
                 target="_blank"
               >
                 Purchase Now

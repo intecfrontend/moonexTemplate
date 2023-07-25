@@ -13,26 +13,19 @@ const CopyRight = () => {
       </div>
       <div className="col-12 col-md text-md-center text-lg-center">
         <p className="ptf-footer-copyright has-black-color">
-          ©{new Date().getFullYear()}{" "}
+          {/* {/* ©{new Date().getFullYear()}{" "} */} */}
           <span>
-            Moonex by{" "}
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              ib-themes
-            </a>
+
+            tel: 0032 (0)499 388 227<br />Benedikt Lantsoght            <br />B.Lantsoght@gmail.com
           </span>
-          . All Rights Reserved.
         </p>
       </div>
       <div className="col-12 col-lg text-md-center text-lg-end">
-        <div className="ptf-footer-socials has-black-color ">
+        <div className="ptf-footer-socials is-right has-black-color ">
           <SocialTwo />
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

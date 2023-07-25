@@ -14,7 +14,7 @@ const HomeStudio = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-studio">
       <Helmet>
-        <title>Moonex - Home Studio</title>
+        <title>Benedikt lantsoght - Home Studio</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -142,7 +142,7 @@ const HomeStudio = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h5">Moonex’s Awards</h2>
+                  <h2 className="h5">Lantsoght’s Awards</h2>
                 </div>
                 {/* <!--Spacer--> */}
                 <div
@@ -170,7 +170,7 @@ const HomeStudio = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h5 d-inline-flex">The World of Moonex</h2>
+                  <h2 className="h5 d-inline-flex">Prepared to learn and improve: Kaizen.</h2>
                   <Link
                     className="ptf-link-with-arrow fz-14 d-none d-lg-inline-flex"
                     to="/blog-grid"
@@ -216,10 +216,9 @@ const HomeStudio = () => {
             <section
               className="jarallax jarallax-img"
               style={{
-                backgroundImage: `url(${
-                  process.env.PUBLIC_URL +
+                backgroundImage: `url(${process.env.PUBLIC_URL +
                   "assets/img/services-call-to-action-background.png"
-                })`,
+                  })`,
               }}
             >
               {/* <!--Spacer--> */}

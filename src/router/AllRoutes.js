@@ -48,14 +48,8 @@ const AllRoutes = () => {
       <Routes>
         <Route path="/" element={<Preview />} />
         {/*  Homepage Demo */}
-        <Route path="/home-default" element={<HomeDefault />} />
         <Route path="/home-studio" element={<HomeStudio />} />
-        <Route path="/home-agency" element={<HomeAgency />} />
-        <Route path="/home-minimal" element={<HomeMinimal />} />
-        <Route path="/home-trending" element={<HomeTrending />} />
-        <Route path="/home-freelancer" element={<HomeFreelancer />} />
-        <Route path="/home-dark" element={<HomeDark />} />
-        <Route path="/home-modern" element={<HomeModern />} />
+
 
         {/* Service */}
         <Route path="/service" element={<Service />} />
@@ -75,7 +69,7 @@ const AllRoutes = () => {
         {/* Portfolio */}
         <Route path="/works-grid" element={<WorksGrid />} />
         <Route path="/works-masonry" element={<WorksMasonry />} />
-        <Route path="/works-listing" element={<WorksListing />} />
+        <Route path="/Portfolio" element={<WorksListing />} />
         <Route path="/works-carousel" element={<WorksCarousel />} />
         <Route path="/works-showcase" element={<WorksShowcase />} />
 

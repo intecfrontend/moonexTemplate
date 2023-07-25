@@ -15,7 +15,7 @@ const BlogDetailsSidebar = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--single-post-sidebar">
       <Helmet>
-        <title>Moonex - Bog Details Sidebar</title>
+        <title>Benedikt lantsoght - Bog Details Sidebar</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
@@ -149,7 +149,7 @@ const BlogDetailsSidebar = () => {
                         </div>
                         <div className="ptf-twitter-review__content">
                           <p>
-                            <a href="#">@moonex</a> - a studio with passionate,
+                            <a href="#">@Lantsoght</a> - a studio with passionate,
                             profressional & full creativity. Much more things
                             that i’m expect. Really awesome & satisfied, alway
                             recommended!

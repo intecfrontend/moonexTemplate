@@ -11,7 +11,7 @@ const WorksShowcase = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--work-showcase-1">
       <Helmet>
-        <title>Moonex - Works Showcase</title>
+        <title>Benedikt lantsoght - Works Showcase</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
@@ -226,10 +226,10 @@ const WorksShowcase = () => {
                     </div>
                     <div className="ptf-twitter-review__content">
                       <p>
-                        The team at <a href="#">@moonexlabs</a> is incredibly
+                        The team at <a href="#">@Lantsoghtlabs</a> is incredibly
                         dedicated, knowledgeable, and helpful. The finished
                         product was beautiful, and worth every penny. I would
-                        absolutely recommend Moonex Labs.
+                        absolutely recommend Lantsoght Labs.
                       </p>
                     </div>
                   </div>

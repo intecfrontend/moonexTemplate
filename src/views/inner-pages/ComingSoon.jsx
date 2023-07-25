@@ -8,7 +8,7 @@ const ComingSoon = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - ComingSoon</title>
+        <title>Benedikt lantsoght - ComingSoon</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -20,10 +20,9 @@ const ComingSoon = () => {
           <section
             className="min-vh-100 jarallax"
             style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL +
+              backgroundImage: `url(${process.env.PUBLIC_URL +
                 "assets/img/root/coming-soon-background.png"
-              })`,
+                })`,
             }}
           >
             {/* <!--Spacer--> */}

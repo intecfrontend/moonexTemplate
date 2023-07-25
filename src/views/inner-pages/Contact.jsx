@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Contact</title>
+        <title>Benedikt lantsoght - Contact</title>
       </Helmet>
       {/* End Page SEO Content */}
 

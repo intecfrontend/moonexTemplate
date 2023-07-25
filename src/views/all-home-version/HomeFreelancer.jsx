@@ -19,7 +19,7 @@ const HomeFreelancer = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-freelancer ">
       <Helmet>
-        <title>Moonex - Home Freelancer</title>
+        <title>Benedikt lantsoght - Home Freelancer</title>
       </Helmet>
       {/* End Page SEO Content */}
 

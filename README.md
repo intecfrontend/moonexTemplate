@@ -1,4 +1,4 @@
-# Moonex - Portfolio & Agency React Template
+# Lantsoght - Portfolio & Agency React Template
 
 ## Description
 

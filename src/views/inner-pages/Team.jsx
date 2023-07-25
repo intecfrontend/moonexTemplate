@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Team</title>
+        <title>Benedikt lantsoght - Team</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -33,7 +33,7 @@ const Team = () => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <h1 className="large-heading">The face of Moonex Labs</h1>
+                    <h1 className="large-heading">The face of Lantsoght Labs</h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"

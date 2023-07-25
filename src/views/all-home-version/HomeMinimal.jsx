@@ -7,7 +7,7 @@ const HomeMinimal = () => {
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--home-minimal">
       <Helmet>
-        <title>Moonex - Home Minimal</title>
+        <title>Benedikt lantsoght - Home Minimal</title>
       </Helmet>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
@@ -55,9 +55,9 @@ const HomeMinimal = () => {
                       <span className="sep has-1-color">/</span>
                       <a
                         className="text-decoration-none"
-                        href="mailto:hello@moonex.com"
+                        href="mailto:B.Lantsoght@gmail.com"
                       >
-                        hello@moonex.com
+                        B.Lantsoght@gmail.com
                       </a>
                       <span className="sep has-1-color">/</span>90 Fairground
                       Rd, FL 3290, USA
@@ -65,7 +65,7 @@ const HomeMinimal = () => {
                   </div>
                   <div className="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end">
                     <p className="ptf-footer-copyright has-black-color">
-                      © 2021 <span>Moonex</span>.
+                      © 2021 <span>Lantsoght</span>.
                     </p>
                   </div>
                 </div>
