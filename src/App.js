@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import HeaderStudio from "./components/header/HeaderStudio";
@@ -13,8 +13,59 @@ import ContactJarallax from "./components/jarallax/ContactJarallax";
 import './styles.css'; // Import the stylesheet
 import "aos/dist/aos.css"; // Import the AOS CSS styles
 import AOS from "aos"; // Import the AOS library
+import { gsap, Elastic } from 'gsap';
+import cvImage from "./assets/img/cvbutton.png";
+import styled, { keyframes } from 'styled-components';
+
+const swingAnimation = keyframes`
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+`;
+
+const SwingElement = styled.div`
+  border: red 5px solid;
+  animation: ${swingAnimation} 3s infinite ease-in-out;
+  transform-origin: center top;
+`;
+
+const ClearFix = styled.div`
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+`;
+
+const SwingingComponent = () => {
+  return (
+    <ClearFix>
+      <SwingElement>Swinging Element</SwingElement>
+    </ClearFix>
+  );
+};
 
 const HomeStudio = () => {
+  const buttonRef = useRef(null);
+
+  useEffect(() => {
+    const button = buttonRef.current;
+    gsap.from(button, {
+      y: -1000, // Start the button outside the viewport
+      duration: 1.5, // Duration of the falling animation
+      ease: Elastic.easeOut.config(0.5, 0.1), // Use Elastic ease for spring effect
+      delay: 0.75 // Optional delay before the animation starts
+    });
+  }, []);
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-studio">
       <Helmet>
@@ -31,29 +82,19 @@ const HomeStudio = () => {
             {/*=============================================
             Start Service Section 
             ============================================== */}
-            <section className="fullHeight">
+            <section className="fullHeight digicontainer">
               {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                style={{ "--ptf-xxl": "3.125rem", "--ptf-md": "1.5625rem" }}
-              ></div>
-              <div className="container-xxl">
-                {/* <!--Animated Block--> */}
 
 
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="100"
-                >                    <img className="myfoto" src={myFoto} alt="myfoto" />
 
-                  <h1 className="whitetext fz-120 fz-90--lg fz-60--md lh-1p1">
-                    Digitally Yours <br />
 
-                  </h1>
-                </div>
-              </div>
+              <img className="myfoto" src={myFoto} alt="myfoto" />
+
+              <h1 className="whitetext fz-120 fz-90--lg fz-60--md lh-1p1">
+                Digitally Yours
+              </h1>
+              <img src={cvImage} className="swing-3 whitebtn"/>
+
             </section>
 
             {/*=============================================
@@ -153,13 +194,13 @@ const HomeStudio = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h5 d-inline-flex">Prepared to learn and improve: Kaizen.</h2>
+                  <h2 className="h5 d-inline-flex">What they say about me.</h2>
                   <Link
                     className="ptf-link-with-arrow fz-14 d-none d-lg-inline-flex"
                     to="/blog-grid"
                     style={{ marginLeft: "3.125rem" }}
                   >
-                    All Articles <i className="lnil lnil-chevron-right"></i>
+                    Yes, important <i className="lnil lnil-chevron-right"></i>
                   </Link>
                 </div>
                 {/* <!--Spacer--> */}

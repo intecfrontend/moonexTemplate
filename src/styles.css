@@ -3,8 +3,9 @@
 font-size: 25px;
 opacity: 0.6}
 
-.fullHeight{height: 90vh; background: var(--ptf-accent-1)}
-.whitetext { color: white;  float: right}
+.fullHeight{width: 100vw; height: 40vw; 
+  background: var(--ptf-accent-1); ;}
+
 .circle {
   width: 58px;
   height: 58px;
@@ -19,11 +20,33 @@ padding: 15px;
   width: 100%;
   color: white
 }
+#callMeCont{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 FaPhone{display: flex; 
   color: white
 }
-.myfoto{width: 40vw;
-border: 2px solid yellow}
+.digicontainer{  overflow: hidden; 
+  width: 100vw; position: relative; padding: 0px; }
+  .whitetext { position: absolute; color: white;z-index: 99;
+    top: 10vw;left: 2.5vw;}
+.whitebtn {  z-index: 999;
+  position: absolute; top: -5vw;left: 12.5vw; height: 45vw}
+
+.myfoto{
+  height: auto;
+  width: 35vw;
+position: absolute;
+top:5vw;
+left: 65vw; 
+
+}
+
 .ptf-animated-block {
   display: flex; justify-content: flex-start; align-items: flex-end;
   position: relative}
+
+  

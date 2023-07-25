@@ -17,7 +17,7 @@ const blogContent = [
   {
     img: "post-3",
     cat: "Community",
-    date: "Dec 7, 2021",
+    date: "Dec 766, 2021",
     title: "Minimalist Trends",
   },
 ];

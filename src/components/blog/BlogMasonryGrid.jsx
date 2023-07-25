@@ -44,7 +44,7 @@ const blogContent = [
       Nullam dignissim tortor vitae mattis tempor...`,
   },
   {
-    img: "post-6",
+    img: "post-61",
     cat: "Inspiration",
     date: "Dec 15, 2021",
     title: "Minimalist Trends",

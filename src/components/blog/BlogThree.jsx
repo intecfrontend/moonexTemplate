@@ -29,13 +29,13 @@ const blogContent = [
   {
     img: "post-5",
     cat: "Inspiration",
-    date: "Dec 7, 2021",
+    date: "Dec 711, 2021",
     title: "Minimalist Trends",
   },
   {
-    img: "post-6",
+    img: "post-61",
     cat: "Community",
-    date: "Dec 7, 2021",
+    date: "Dec 73, 2021",
     title: "Design Trends - Stage 14",
   },
   {
