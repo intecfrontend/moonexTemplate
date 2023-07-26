@@ -16,43 +16,8 @@ import AOS from "aos"; // Import the AOS library
 import { gsap, Elastic } from 'gsap';
 import cvImage from "./assets/img/cvbutton.png";
 import styled, { keyframes } from 'styled-components';
+import FallingImage from './falling.js'
 
-const swingAnimation = keyframes`
-  0% {
-    transform: rotate(-10deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  100% {
-    transform: rotate(-10deg);
-  }
-`;
-
-const SwingElement = styled.div`
-  border: red 5px solid;
-  animation: ${swingAnimation} 3s infinite ease-in-out;
-  transform-origin: center top;
-`;
-
-const ClearFix = styled.div`
-  &:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-  }
-`;
-
-const SwingingComponent = () => {
-  return (
-    <ClearFix>
-      <SwingElement>Swinging Element</SwingElement>
-    </ClearFix>
-  );
-};
 
 const HomeStudio = () => {
   const buttonRef = useRef(null);
@@ -93,7 +58,10 @@ const HomeStudio = () => {
               <h1 className="whitetext fz-120 fz-90--lg fz-60--md lh-1p1">
                 Digitally Yours
               </h1>
-              <img src={cvImage} className="swing-3 whitebtn"/>
+              <div className="whitetextsmall fz-120 fz-90--lg fz-60--md lh-1p1">
+                Normal on request
+              </div>
+              <FallingImage/>
 
             </section>
 
