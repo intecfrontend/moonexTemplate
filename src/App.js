@@ -16,8 +16,7 @@ import AOS from "aos"; // Import the AOS library
 import { gsap, Elastic } from 'gsap';
 import cvImage from "./assets/img/cvbutton.png";
 import styled, { keyframes } from 'styled-components';
-import FallingImage from './falling.js'
-
+import FallingImage from './falling.js';
 
 const HomeStudio = () => {
   const buttonRef = useRef(null);
@@ -61,7 +60,7 @@ const HomeStudio = () => {
               <div className="whitetextsmall fz-120 fz-90--lg fz-60--md lh-1p1">
                 Normal on request
               </div>
-              <FallingImage/>
+                <FallingImage />
 
             </section>
 
