@@ -6,17 +6,21 @@ import ServiceList from "./components/list/ServiceList";
 import myFoto from "./assets/img/myfoto2.png";
 import PortfolioThree from "./components/portfolio/PortfolioThree";
 import Award from "./components/award/Award";
+import Life from "./components/award/Life";
 import Blog from "./components/blog/Blog";
 import FooterThree from "./components/footer/FooterThree";
 import CopyRightThree from "./components/footer/copyright/CopyRightThree";
 import ContactJarallax from "./components/jarallax/ContactJarallax";
+import SimpleSlider from "./carousel";
 import './styles.css'; // Import the stylesheet
 import "aos/dist/aos.css"; // Import the AOS CSS styles
 import AOS from "aos"; // Import the AOS library
 import { gsap, Elastic } from 'gsap';
 import cvImage from "./assets/img/cvbutton.png";
 import styled, { keyframes } from 'styled-components';
-import FallingImage from './falling.js';
+import FallingImage from './falling.js'
+
+
 
 const HomeStudio = () => {
   const buttonRef = useRef(null);
@@ -60,7 +64,10 @@ const HomeStudio = () => {
               <div className="whitetextsmall fz-120 fz-90--lg fz-60--md lh-1p1">
                 Normal on request
               </div>
-                <FallingImage />
+              <FallingImage />
+
+              <SimpleSlider />
+
 
             </section>
 
@@ -133,7 +140,7 @@ const HomeStudio = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h5">Lantsoght’s Awards</h2>
+                  <h2 className="h5">Education ...</h2>
                 </div>
                 {/* <!--Spacer--> */}
                 <div
@@ -143,6 +150,32 @@ const HomeStudio = () => {
               </div>
               <div className="container-xxl">
                 <Award />
+              </div>
+            </section> {/*=============================================
+            Start Award Section 
+            ============================================== */}
+            <section className="ptf-custom--1562">
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                  <h2 className="h5">Experience ...</h2>
+                </div>
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
+                ></div>
+         
+               <Life />
               </div>
             </section>
 

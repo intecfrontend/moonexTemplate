@@ -5,7 +5,7 @@ const Search = () => {
     event.preventDefault();
   };
   return (
-    <form onClick={handleSubmit}>
+    <form>
       <input
         type="text"
         onKeyPress={(e) => {

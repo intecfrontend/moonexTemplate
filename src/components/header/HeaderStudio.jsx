@@ -81,7 +81,7 @@ const HeaderStudio = () => {
                 className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle bar right"
                 onClick={handleClick1}
               >
-                <i className="lnir lnir-menu-alt-5"></i>
+                <i className="lnir lnir-menu"></i>
               </div>
               {/* Toggle bar icon */}
             </div>

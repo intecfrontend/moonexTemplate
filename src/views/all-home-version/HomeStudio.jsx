@@ -142,7 +142,7 @@ const HomeStudio = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h5">Lantsoght’s Awards</h2>
+                <h2 className="h5">Eduction ... </h2>
                 </div>
                 {/* <!--Spacer--> */}
                 <div
@@ -153,6 +153,33 @@ const HomeStudio = () => {
               <div className="container-xxl">
                 <Award />
               </div>
+              
+            </section>
+            <section className="ptf-custom--1562">
+              {/* <!--Spacer--> */}
+              <div
+                className="ptf-spacer"
+                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              ></div>
+              <div className="container-xxl">
+                {/* <!--Animated Block--> */}
+                <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="0"
+                >
+                <h2 className="h5">Eduction ... </h2>
+                </div>
+                {/* <!--Spacer--> */}
+                <div
+                  className="ptf-spacer"
+                  style={{ "--ptf-xxl": "5.625rem", "--ptf-md": "2.8125rem" }}
+                ></div>
+              </div>
+              <div className="container-xxl">
+                <Award />
+              </div>
+              
             </section>
 
             {/*=============================================

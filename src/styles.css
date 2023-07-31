@@ -1,10 +1,14 @@
 /* styles.css */
 .prefix {
-font-size: 25px;
-opacity: 0.6}
+  font-size: 25px;
+  opacity: 0.6;
+}
 
-.fullHeight{width: 100vw; height: 40vw; 
-  background: var(--ptf-accent-1); ;}
+.fullHeight {
+  width: 100vw;
+  height: 40vw;
+  background: var(--ptf-accent-1);
+}
 
 .circle {
   width: 58px;
@@ -12,45 +16,84 @@ opacity: 0.6}
   background-color: darkgray;
   border-radius: 50%;
   display: flex;
-padding: 15px;  
+  padding: 15px;
   justify-content: center;
-  align-items: center;opacity: 0.8;
+  align-items: center;
+  opacity: 0.8;
 }
-.phonecontainer{display: flex; 
+.phonecontainer {
+  display: flex;
   width: 100%;
-  color: white
+  color: white;
 }
-#callMeCont{
+#callMeCont {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-FaPhone{display: flex; 
-  color: white
+FaPhone {
+  display: flex;
+  color: white;
 }
-.digicontainer{  overflow: hidden; 
-  width: 100vw; position: relative; padding: 0px; }
-  .whitetext { font-size: 7vw !important; position: absolute; color: white;
-    top: 10vw;left: 2.5vw;}
-    .whitebtn { cursor: pointer; z-index: 999;   filter: drop-shadow(-10px 10px 12px #440505);
-      position: absolute; top: -27vw;left: 24.5vw; height: 60vw; transition: filter 2s, top 1s;}
-    .whitebtn:hover {  filter: drop-shadow(-1px 1px 1px #440505); 
-       top: -26vw; }
-       .whitetextsmall{  cursor: pointer; position: absolute; font-size: 2vw !important; color: #440505;  filter: drop-shadow(-1px 1px 2px #440505);
-        top: 17vw;left: 30.5vw; height: 60vw; }
-.myfoto{
+.digicontainer {
+  overflow: hidden;
+  width: 100vw;
+  position: relative;
+  padding: 0px;
+}
+.whitetext {
+  font-size: 7vw !important;
+  position: absolute;
+  color: white;
+  top: 10vw;
+  left: 2.5vw;
+}
+.whitebtn {
+  cursor: pointer;
+  z-index: 999;
+  filter: drop-shadow(-10px 10px 12px #440505);
+  position: absolute;
+  top: -27vw;
+  left: 24.5vw;
+  height: 60vw;
+  transition: filter 2s, top 1s;
+}
+.whitebtn:hover {
+  filter: drop-shadow(-1px 1px 1px #440505);
+  top: -26vw;
+}
+.whitetextsmall {
+  cursor: pointer;
+  position: absolute;
+  font-size: 2vw !important;
+  color: #440505;
+  filter: drop-shadow(-1px 1px 2px #440505);
+  top: 17vw;
+  left: 30.5vw;
+  height: 60vw;
+}
+.myfoto {
   height: auto;
   width: 35vw;
-position: absolute;
-top:5vw;
-left: 65vw; 
-cursor: pointer;
-
+  position: absolute;
+  top: 5vw;
+  left: 65vw;
+  cursor: pointer;
 }
 
 .ptf-animated-block {
-  display: flex; justify-content: flex-start; align-items: flex-end;
-  position: relative}
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  position: relative;
+}
 
-  
+.caritem {
+  width: 6vw;
+
+}
+.slider {
+  top: 36vw;
+  opacity: 0.6;
+}

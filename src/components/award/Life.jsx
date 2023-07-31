@@ -2,28 +2,24 @@ import React from "react";
 
 const myStudies = [
   {
-    date: "finished June 1989",
-    img: "logo-2",
+    date: "1989-2017",
+    img: "logo-3",
     delayAnimation: "0",
     studieList: [
       {
-        title: "St Luc Tournai (FR)",
-        subTitle: "3years: Bachelor with distinction",
+        title: "Graphic Design Experience",
+        subTitle: "Please look up on Linkedin",
       },
     ],
   },
   {
-    date: "finished June 2018",
-    img: "logo-4",
+    date: "15 July 2019 until present date",
+    img: "logo-5",
     delayAnimation: "100",
     studieList: [
       {
-        title: "Syntra Web Development HTML/PHP (NL)",
-        subTitle: "1year: Full Time",
-      },
-      {
-        title: "Self Study Web Development (EN)",
-        subTitle: "Ongoing: Youtube - Udemy",
+        title: "Instructor Web Development at Intec Brussel",
+        subTitle: "Mainly teaching React and more... see software logos on homepage carousel. Helping to set up and maintain the Intec site www.intecbrussel.be .",
       },
     ],
   },
@@ -59,7 +55,7 @@ const Jobs = [
   },
 ];
 
-const Award = () => {
+const Life = () => {
   return (
     <ul
       className="ptf-rewards-list ptf-rewards-list--small"
@@ -112,4 +108,4 @@ const Award = () => {
   );
 };
 
-export default Award;
+export default Life;

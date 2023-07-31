@@ -1,6 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-
-import Downloadbtn from './Downloadbtn';
 import { gsap, Elastic } from 'gsap';
 import cvImage from "./assets/img/cvbutton.png";
 
@@ -37,9 +35,7 @@ const FallingImage = () => {
     gsap.set(image, { visibility: 'visible' }); // Ensure the image is visible before starting the animation
   };
 
-  return
-  
-    <img src={cvImage} className="swing-3 whitebtn" ref={imageRef} onLoad={handleImageLoad} style={{ visibility: 'hidden' }} />;
+  return <a href='./cv.ben.3L.pdf' download><img src={cvImage} className="swing-3 whitebtn" ref={imageRef} onLoad={handleImageLoad} style={{ visibility: 'hidden' }} /></a>;
 };
 
 export default FallingImage;
