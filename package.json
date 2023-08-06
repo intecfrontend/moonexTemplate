@@ -41,6 +41,7 @@
     "sass": "^1.57.1",
     "slick-carousel": "^1.8.1",
     "slider": "^1.0.4",
+    "styled-components": "^6.0.7",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },

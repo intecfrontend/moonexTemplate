@@ -11,7 +11,7 @@ const linkList = [
     link: "/",
   },
   {
-    itemName: "Privacy Policy",
+    itemName: "Privacyf Policy",
     link: "/",
   },
   {
@@ -70,11 +70,11 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className="fz-24">Soldatenstr. 63, BE1082 Sint Agatha Berchem, Brussel </p>
+          <p className="fz-24">Soldatenstr. 63, BER1082 Sint Agatha Berchem, Brussel </p>
           <a className="fz-40 has-black-color" href="mailto:B.Lantsoght@gmail.com">
             B.Lantsoght@gmail.com
           </a>
-        </div>
+        </div><h1>tel: 0499 388 227</h1>
       </div>
       <div className="col-12 col-md-6 col-xl-3">
         {/* <!--Animated Block--> */}

@@ -9,9 +9,7 @@ const Address = () => {
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
         <p className="fz-20 lh-1p5 has-black-color">
-          90 Fairground Rd St FL 3290
-          <br />
-          United States
+
         </p>
       </div>
 
@@ -27,6 +25,7 @@ const Address = () => {
           <a href="mailto:B.Lantsoght@gmail.com">
             B.Lantsoght@gmail.com
             <br />
+
           </a>
           <a href="mailto:career@Lantsoght.co">career@Lantsoght.co</a>
         </p>

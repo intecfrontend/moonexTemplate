@@ -4,12 +4,11 @@ import SocialTwo from "../../social/SocialTwo";
 const CopyRightThree = () => {
   return (
     <div className="row align-items-center">
-      <div className="col-12 col-md">
+      <div className="addresscont2  col-12 col-md">
         <p className="ptf-footer-copyright has-black-color">
           {/* ©{new Date().getFullYear()}{" "} */}
-          <span>
-            {" "}
-            tel: 0032 (0)499 388 227<br />Benedikt Lantsoght            <br />B.Lantsoght@gmail.com
+          <span >
+            tel: 0032 (0)499 388 227<br />Benedikt Lantsoght
           </span>
         </p>
       </div>

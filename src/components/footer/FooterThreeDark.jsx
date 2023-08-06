@@ -1,6 +1,5 @@
 import React from "react";
 import FooterList from "../list/FooterList";
-
 const FooterThreeDark = () => {
   return (
     <div className="row">
@@ -22,7 +21,7 @@ const FooterThreeDark = () => {
           data-aos-delay="100"
         >
           <div className="ptf-widget ptf-widget-links has-white-color">
-            <FooterList />
+
           </div>
         </div>
       </div>
@@ -45,7 +44,7 @@ const FooterThreeDark = () => {
               style={{ "--ptf-xxl": "0.625rem" }}
             ></div>
             <p className="fz-18 has-3-color">
-              Soldatenstr. 63, BE1082 Sint Agatha Berchem, Brussel
+              Soldatenstr. 63, BE-1082 Sint Agatha Berchem, Brussel
             </p>
           </div>
         </div>

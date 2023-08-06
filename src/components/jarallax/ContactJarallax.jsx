@@ -9,7 +9,7 @@ const ContactJarallax = () => {
         {/* <!--Animated Block--> */}
         <div id="callMeCont" className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
           <div className="phonecontainer" > <div className="fz-36 has-accent-1">     <FaPhone className="circle" style={{ display: 'inline', color: 'white' }} />
-            <span className="prefix"> 0034</span> (0)499 388 227</div>
+            <span className="prefix"> 0032</span> (0)499 388 227</div>
           </div>
           {/* <!--Spacer--> */}
 

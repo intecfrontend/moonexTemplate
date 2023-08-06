@@ -3,18 +3,17 @@ import FooterList from "../list/FooterList";
 
 const FooterThree = () => {
   return (
-    <div className="row">
+    <div className="row myrow">
       <div className="col-12 col-lg">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
           <a href="index.html">
-            <img src="assets/img/root/logo-dark.png" alt="" loading="lazy" />
           </a>
         </div>
       </div>
       {/* End .col */}
 
-      <div className="col-12 col-lg">
+      <div className="mapimgwrap col-12 col-lg">
         {/* <!--Animated Block--> */}
         <div
           className="ptf-animated-block"
@@ -28,7 +27,7 @@ const FooterThree = () => {
       </div>
       {/* End .col */}
 
-      <div className="col-12 col-lg">
+      <div className="addresscont col-12 col-lg">
         {/* <!--Animated Block--> */}
         <div
           className="ptf-animated-block"
@@ -44,8 +43,11 @@ const FooterThree = () => {
               className="ptf-spacer"
               style={{ "--ptf-xxl": "0.625rem" }}
             ></div>
-            <p className="fz-18">Soldatenstr. 63, BE1082 Sint Agatha Berchem, Brussel </p>
-          </div>
+            <p className="fz-18">Soldatenstr. 63, BE1082 Sint Agatha Berchem, Brussel </p>     
+            <div className="fz-36 has-black-color">
+            tel: 0499 388 227
+            </div>      
+          </div> 
         </div>
       </div>
       {/* End .col */}
