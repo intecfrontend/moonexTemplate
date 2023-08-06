@@ -34,7 +34,7 @@ const WorksListing = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading">Portfolio</h1>
+                      <h1 className="large-heading">Prtfolio</h1>
                     </div>
                   </div>
                 </div>

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Search from "../form/Search";
 import DropdownMenu from "./menu/DropdownMenu";
 import MobileMenu from "./menu/MobileMenu";
+import EN from "../../assets/img/languageicon/ENred.png";
+import "../../App.css"
 
 const HeaderStudio = () => {
   const [click, setClick] = useState(false);
@@ -23,6 +25,18 @@ const HeaderStudio = () => {
 
   window.addEventListener("scroll", changeBackground);
 
+  // New state variable to handle modal visibility
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  // Function to show the modal
+  const handleShowModal = () => {
+    setIsModalVisible(true);
+  };
+
+  // Function to hide the modal
+  const handleHideModal = () => {
+    setIsModalVisible(false);
+  };
   return (
     <>
       <header className="ptf-header ptf-header--style-2 ptf-header--opaque">
@@ -63,20 +77,14 @@ const HeaderStudio = () => {
                   click ? "ptf-navbar-search is-open" : "ptf-navbar-search"
                 }
               >
-                <div className="ptf-navbar-search__wrapper">
-                  <Search />
-                </div>
-
                 <div
                   className="ptf-navbar-search__toggle"
-                  onClick={handleClick}
                 >
-                  <i className="lnir lnir-search-alt"></i>
+                <img src={EN} alt="enicon" className="bol" />
                   <i className="lnir lnir-close"></i>
                 </div>
               </div>
               {/* <!--Offcanvas Menu Toggle--> */}
-
               <div
                 className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle bar right"
                 onClick={handleClick1}

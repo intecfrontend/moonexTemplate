@@ -150,15 +150,14 @@ const DropdownMenu = () => {
       {menuContent.map((item, i) => (
         <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
           <a href="#" className={item.activeClass}>
-            <span>{item.name}</span>
+          <span>{item.name}</span>
           </a>
 
           <ul className="sub-menu mega">
             {item.dropDownItems.map((val, i) => (
               <li key={i}>
                 <Link to={val.routerPath}>
-                  {" "}
-                  <span>{val.name}</span>
+                <span>{val.name}</span>
                 </Link>
               </li>
             ))}
