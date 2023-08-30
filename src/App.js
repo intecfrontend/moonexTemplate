@@ -59,11 +59,10 @@ const HomeStudio = () => {
               <img className="myfoto" src={myFoto} alt="myfoto" />
 
               <h1 className="whitetext fz-120 fz-90--lg fz-60--md lh-1p1">
-                Digitally Yours
+               Web Developer
               </h1>
               <div className="whitetextsmall fz-120 fz-90--lg fz-60--md lh-1p1">
-                Normal on request
-              </div>
+React - Laravel              </div>
               <FallingImage />
 
               <SimpleSlider />
@@ -194,7 +193,7 @@ const HomeStudio = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h5 d-inline-flex">What they say about me.</h2>
+                  <h2 className="h5 d-inline-flex">References</h2>
                   <Link
                     className="ptf-link-with-arrow fz-14 d-none d-lg-inline-flex"
                     to="/blog-grid"

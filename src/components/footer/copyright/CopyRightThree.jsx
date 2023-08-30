@@ -8,7 +8,7 @@ const CopyRightThree = () => {
         <p className="ptf-footer-copyright has-black-color">
           {/* ©{new Date().getFullYear()}{" "} */}
           <span >
-            tel: 0032 (0)499 388 227<br />Benedikt Lantsoght
+            tel: 0032 (0)499 388 227<br />B.Lantsoght@gmail.com
           </span>
         </p>
       </div>

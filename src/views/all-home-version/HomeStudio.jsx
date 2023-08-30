@@ -242,11 +242,7 @@ const HomeStudio = () => {
             ============================================== */}
             <section
               className="jarallax jarallax-img"
-              style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL +
-                  "assets/img/services-call-to-action-background.png"
-                  })`,
-              }}
+ 
             >
               {/* <!--Spacer--> */}
               <div

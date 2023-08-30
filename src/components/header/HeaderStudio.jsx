@@ -5,6 +5,9 @@ import DropdownMenu from "./menu/DropdownMenu";
 import MobileMenu from "./menu/MobileMenu";
 import EN from "../../assets/img/languageicon/ENred.png";
 import "../../App.css"
+import Modal from "./Modal";
+import "./App1.css";
+
 
 const HeaderStudio = () => {
   const [click, setClick] = useState(false);
@@ -37,6 +40,8 @@ const HeaderStudio = () => {
   const handleHideModal = () => {
     setIsModalVisible(false);
   };
+  const [modalOpen, setModalOpen] = useState(false);
+
   return (
     <>
       <header className="ptf-header ptf-header--style-2 ptf-header--opaque">
@@ -80,7 +85,11 @@ const HeaderStudio = () => {
                 <div
                   className="ptf-navbar-search__toggle"
                 >
-                <img src={EN} alt="enicon" className="bol" />
+                  {modalOpen && <Modal setOpenModal={setModalOpen} />}
+
+                  <img onMouseEnter={() => {
+                    setModalOpen(true);
+                  }} src={EN} alt="enicon" className="bol" />
                   <i className="lnir lnir-close"></i>
                 </div>
               </div>
@@ -123,6 +132,7 @@ const HeaderStudio = () => {
         <MobileMenu />
       </div>
       {/* End sidebar menu */}
+
     </>
   );
 };

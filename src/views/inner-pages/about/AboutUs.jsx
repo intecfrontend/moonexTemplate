@@ -268,11 +268,7 @@ const AboutUs = () => {
               ============================================== */}
             <section
               className="jarallax jarallax-img"
-              style={{
-                backgroundImage: `url(${process.env.PUBLIC_URL +
-                  "assets/img/about-us-testimonial-background.png"
-                  })`,
-              }}
+
             >
               {/* <!--Spacer--> */}
               <div

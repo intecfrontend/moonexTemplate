@@ -51,7 +51,7 @@ FaPhone {
 .whitebtn {
   cursor: pointer;
   z-index: 999;
-  filter: drop-shadow(-10px 10px 12px #440505);
+  filter: drop-shadow(-10px 10px 12px black);
   position: absolute;
   top: -27vw;
   left: 24.5vw;
@@ -59,25 +59,25 @@ FaPhone {
   transition: filter 2s, top 1s;
 }
 .whitebtn:hover {
-  filter: drop-shadow(-1px 1px 1px #440505);
+  filter: drop-shadow(-1px 1px 1px white);
   top: -26vw;
 }
 .whitetextsmall {
   cursor: pointer;
   position: absolute;
   font-size: 2vw !important;
-  color: #440505;
+  color: orange;
   filter: drop-shadow(-1px 1px 2px #440505);
-  top: 17vw;
-  left: 30.5vw;
+  top: 18vw;
+  left: 38.2vw;
   height: 60vw;
 }
 .myfoto {
   height: auto;
-  width: 35vw;
+  width: 30vw;
   position: absolute;
-  top: 5vw;
-  left: 65vw;
+  top: 10vw;
+  left: 70vw;
   cursor: pointer;
 }
 

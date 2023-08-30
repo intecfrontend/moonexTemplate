@@ -35,16 +35,16 @@ const FooterThree = () => {
           data-aos-delay="200"
         >
           <div className="ptf-widget ptf-widget-text">
-            <a className="fz-36 has-black-color" href="mailto:B.Lantsoght@gmail.com">
-              B.Lantsoght@gmail.com
+            <a className="ptf-filled-link fz-36 has-black-color" href="mailto:B.Lantsoght@gmail.com ">
+              Benedikt Lantsoght
             </a>
             {/* <!--Spacer--> */}
             <div
               className="ptf-spacer"
               style={{ "--ptf-xxl": "0.625rem" }}
             ></div>
-            <p className="fz-18">Soldatenstr. 63, BE1082 Sint Agatha Berchem, Brussel </p>     
-            <div className="fz-36 has-black-color">
+            <p className="fz-18">Soldatenstr. 63,<br/> BE1082 Sint Agatha Berchem, Brussel </p>     
+            <div className="fz-36 has-black-color ptf-filled-link">
             tel: 0499 388 227
             </div>      
           </div> 

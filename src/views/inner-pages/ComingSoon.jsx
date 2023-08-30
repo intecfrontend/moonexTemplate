@@ -19,11 +19,7 @@ const ComingSoon = () => {
         <div className="ptf-page ptf-page--coming-soon">
           <section
             className="min-vh-100 jarallax"
-            style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL +
-                "assets/img/root/coming-soon-background.png"
-                })`,
-            }}
+
           >
             {/* <!--Spacer--> */}
             <div
